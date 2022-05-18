@@ -1030,7 +1030,9 @@
 
 				with (fied_settings) {
 
-						__p += '<label>  <span>' +
+						__p += '<label>  <span class="badge badge-secondary">' +
+								((__t = ( rf.get(Formbuilder.names.GROUP_NAME) )) == null ? '' : __t) +
+                						'</span> ' +
 								((__t = ( rf.get(Formbuilder.names.LABEL) )) == null ? '' : __t);
 
 						if (rf.get(Formbuilder.names.REQUIRED)) {
