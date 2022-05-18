@@ -1086,7 +1086,7 @@
 						__p +=
 								'<input type="text" data-rv-input="model.' +
 								((__t = ( Formbuilder.names.GROUP_NAME )) == null ? '' : __t) +
-								'" placeholder="' + Formbuilder.lang('Group name') + '" />' +
+								'" placeholder="' + Formbuilder.lang('Group name or language (en,ar,zh,de)') + '" />' +
 
 								'<input type="text" data-rv-input="model.' +
 								((__t = ( Formbuilder.names.LABEL )) == null ? '' : __t) +
